@@ -7,6 +7,8 @@ const headStyle = {
   border: "1px solid black"
 };
 
+headStyle.color = "red";
+
 ReactDOM.render(
   <h1 style={headStyle}>Hello World!</h1>,
   document.getElementById("root")
